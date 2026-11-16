@@ -51,7 +51,7 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo / Brand Name */}
+          {/* Logo */}
           <a
             href="#home"
             className="font-bold text-base sm:text-lg tracking-tight group flex items-center gap-1.5"
