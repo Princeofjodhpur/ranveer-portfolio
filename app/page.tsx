@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Metrics from "@/components/Metrics";
+import Architecture from "@/components/Architecture";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -12,6 +14,8 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <Metrics />
+      <Architecture />
       <About />
       <Skills />
       <Experience />
@@ -21,4 +25,3 @@ export default function Home() {
     </main>
   );
 }
-

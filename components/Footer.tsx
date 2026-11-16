@@ -1,7 +1,7 @@
 "use client";
 
 import { resumeData } from "@/data/resume";
-import { Github, Linkedin, Mail, MessageCircle, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 
 const { personal } = resumeData;
 
@@ -14,9 +14,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-10">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="text-2xl font-black">
-              <span className="gradient-text">RSS</span>
-              <span className="text-white/20 text-sm font-mono ml-1">.QA</span>
+            <div className="text-xl sm:text-2xl font-black">
+              <span className="text-white">Ranveer Singh </span>
+              <span className="gradient-text">Sankhala</span>
+              <span className="text-primary-400/80 font-mono text-xs ml-1.5 px-2 py-0.5 rounded bg-primary-500/10 border border-primary-500/20">
+                .QA
+              </span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               QA Automation Engineer passionate about delivering bug-free software through precision testing.
@@ -89,10 +92,7 @@ export default function Footer() {
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/25 text-sm">
             © {year} {personal.name}. All rights reserved.
-          </p>
-          <p className="text-white/25 text-sm flex items-center gap-1.5">
-            Built with <Heart size={12} className="text-red-400" fill="currentColor" /> using Next.js & Tailwind CSS
-          </p>
+          </p>         
         </div>
       </div>
     </footer>

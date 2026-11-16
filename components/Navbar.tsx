@@ -5,7 +5,8 @@ import { Download, Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
+  { label: "Metrics", href: "#metrics" },
+  { label: "Architecture", href: "#architecture" },
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
@@ -50,17 +51,20 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo / Brand Name */}
           <a
             href="#home"
-            className="font-bold text-xl tracking-tight group"
+            className="font-bold text-base sm:text-lg tracking-tight group flex items-center gap-1.5"
             onClick={(e) => {
               e.preventDefault();
               handleNav("#home");
             }}
           >
-            <span className="gradient-text">RSS</span>
-            <span className="text-white/40 ml-1 text-sm font-mono">
+  
+            <span className="gradient-text font-black">
+              Ranveer Singh Sankhala
+            </span>
+            <span className="text-primary-400/80 font-mono text-xs ml-1 px-1.5 py-0.5 rounded bg-primary-500/10 border border-primary-500/20">
               .QA
             </span>
           </a>

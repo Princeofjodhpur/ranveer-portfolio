@@ -134,8 +134,8 @@ export default function Contact() {
                   Let&apos;s Build Quality Together
                 </h3>
                 <p className="text-white/50 text-sm leading-relaxed">
-                  Looking for QA Engineer, Automation Tester, or SDET roles.
-                  Open to full-time positions, contract work, and remote
+                  Looking for QA Lead, Staff QA Engineer, or SDET Automation Architect roles.
+                  Open to leadership positions, advisory consulting, and remote
                   opportunities.
                 </p>
               </div>
