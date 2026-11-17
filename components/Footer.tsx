@@ -15,11 +15,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="text-xl sm:text-2xl font-black">
-              <span className="text-white">Ranveer Singh </span>
-              <span className="gradient-text">Sankhala</span>
-              <span className="text-primary-400/80 font-mono text-xs ml-1.5 px-2 py-0.5 rounded bg-primary-500/10 border border-primary-500/20">
-                .QA
-              </span>
+              <span className="gradient-text">Ranveer Singh Sankhala</span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               QA Automation Engineer passionate about delivering bug-free software through precision testing.
@@ -92,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/25 text-sm">
             © {year} {personal.name}. All rights reserved.
-          </p>         
+          </p>
         </div>
       </div>
     </footer>

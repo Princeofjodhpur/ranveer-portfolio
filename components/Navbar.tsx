@@ -64,9 +64,6 @@ export default function Navbar() {
             <span className="gradient-text font-black">
               Ranveer Singh Sankhala
             </span>
-            <span className="text-primary-400/80 font-mono text-xs ml-1 px-1.5 py-0.5 rounded bg-primary-500/10 border border-primary-500/20">
-              .QA
-            </span>
           </a>
 
           {/* Desktop Nav */}
